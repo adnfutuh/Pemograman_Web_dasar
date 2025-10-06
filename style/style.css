@@ -17,6 +17,10 @@ h3 {
   color: #00a2c6;
 }
 
+header {
+  display: inline;
+}
+
 footer {
   padding: 20px;
   background-color: #00a2c6;
@@ -28,6 +32,8 @@ footer {
 nav {
   background-color: #00a2c6;
   padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 nav li {
